@@ -1,0 +1,22 @@
+.scroll-top{
+    position: fixed;
+    bottom: 30px;
+    right: 2rem;
+    display: none;
+    border-radius: 5px;
+    background-color: transparent;
+    z-index: 1;
+    outline: none;
+    .scroll-top-icon{
+        color: orange;
+        font-size: 2.2rem;
+        border-radius: 3px;
+        &:hover{
+            color: orangered;
+        }
+    }
+}
+
+.show-scroll-top{
+    display: block;
+}

@@ -1,0 +1,41 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+} 
+body{
+    color: black;
+    background-color: white;
+    transition: .5s;
+    a{
+        color: black;
+    }
+    .nav-link{
+        color: black;
+    }
+ } 
+img{
+    max-width: 70%;
+    height: auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        color: orangered !important;
+    }
+}
+section{
+    padding: 3rem 0 1rem;
+}
+i{
+    cursor: pointer;
+}
+

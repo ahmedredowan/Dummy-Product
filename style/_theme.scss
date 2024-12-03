@@ -1,0 +1,30 @@
+body.dark-theme{
+    color: white;
+    background-color: rgb(31, 27, 27);
+    a{
+        color: white;
+    }
+    i{
+        color: white;
+    }
+    .header{  
+        background-color: rgb(110, 107, 107);
+        color: white;
+    }
+    .owl-carousel{
+        .item{
+            background-color: rgb(46, 45, 45);
+        }
+    }
+    .footer-container{
+        background-color: rgb(48, 46, 46);
+    }
+
+
+
+    @media screen and (max-width: 768px){
+        .nav-menu{
+            background-color: rgb(58, 56, 56);
+        }
+    }
+}

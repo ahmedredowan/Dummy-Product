@@ -1,0 +1,35 @@
+.footer-container{
+    background-color: rgb(235, 232, 232);
+}
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    .delivery{
+        width: 100%;
+    }
+    .company{
+        width: 100%;
+    }
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    .community{
+        width: 100%;
+    }
+    .social{
+        width: 100%;
+    }
+}
+.social{
+    margin: 15px 0;
+}
+.social i{
+    font-size: 20px;
+    margin: 0 3px;
+    &:hover{
+        background-color: rgb(144, 144, 247);
+        border-radius: 5px;
+        padding: 3px;
+    }
+}

@@ -1,0 +1,77 @@
+/*=============== HEADER ===============*/
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  transition: 0.5s;
+  z-index: $z_fixed;
+  .nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-menu {
+    transition: 0.3s;
+  }
+  .nav-list {
+    display: flex;
+    .bx-toggle-left {
+      font-size: 23px;
+    }
+  }
+  .bx-toggle-left{
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .nav-toggle {
+    display: none;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    .nav {
+      display: block;    
+    }
+    .nav-menu {
+      top: -300px;
+      position: relative;
+      margin: 0 40px;
+      background: rgb(233, 231, 231);
+      border-radius: 10px; 
+    }
+    .nav-list {
+        display: block;
+    } 
+    .nav-link:hover{
+        background-color: rgb(180, 175, 248);
+        border-radius: 10px;
+    }
+    .bx-toggle-left{
+        margin-left: 50px;
+    }
+    .nav-toggle {
+      display: block;
+      top: 0;
+      position: absolute;
+      right: 30px;
+    }
+    .nav-menu.show{
+        top: 40px;
+    }
+  }
+}
+
+
+.active-menu{
+  color: orangered !important;
+  font-weight: bold;
+}
+
+.header-scroll{
+  box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}

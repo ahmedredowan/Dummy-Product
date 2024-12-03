@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Josefin+Sans&family=Permanent+Marker&family=Pompiere&family=Rammetto+One&family=Russo+One&family=Tangerine&family=Teko&family=UnifrakturMaguntia&display=swap');
+$bodyFont: 'Poppins',sans-serif;
+$titleFont: 'Oswald', sans-serif;
+$paraFont: 'Fredoka', sans-serif;
+/*
+font-family: 'Fredoka', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Pompiere', cursive;
+font-family: 'Rammetto One', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'UnifrakturMaguntia', cursive;
+*/
+$font_title: 3rem;
+$para_title: 16px;
+$font_big: 4rem;
+$font_semiBig:3rem;
+$font_medium:2rem;
+$font_normal: 1rem;
+$font_h1: 32px;
+$font_h2: 24px;
+$font_h3: 18.72px;
+$font_h4: 16px;
+$font_h5: 13.28px;
+$font_h6: 12px;
+
+ /* Extra small(600px and down), Small(600px and up), Medium(768px and up), Large(992px and up), Extra large(1200px and up) */
+ 
+ $mb_1: 0rem;
+ $mb_2: .5rem; 
+ $mb_3: .75rem; 
+ $mb_4: 1rem;
+ $mb_5: 1.5rem;
+ $mb_6: 2rem;
+
+ $z_tooltip: 10;
+ $z_fixed: 100;
+
+
+ $header_height: 4rem;
+
+.title{
+   font-size: 2rem;
+   font-weight: bold;
+   font-family: $titleFont;
+   padding: 15px 5px;
+}
+
+.mybtn{
+   background-color: rgb(94, 94, 248);
+   border: none;
+   border-radius: 25px;
+   color: white;
+   text-align: center;
+   padding: 5px 10px;
+   font-weight: bold;
+   &:hover{
+      background-color: blue;
+   }
+}
+
+.box-container{
+   display: flex;
+   justify-content: space-between;
+   
+   .left-box,
+   .right-box{
+       width: 100%;
+       padding: 20px;
+       
+   }
+   .right-box img{
+      float: right !important;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$red_lighter: LightCoral ;
+$red_light: Crimson;
+$red: red;
+$red_dark: FireBrick ;
+$red_darker: DarkRed ;
+
+$green_lighter: MediumSpringGreen ;
+$green_light: MediumSeaGreen ;
+$green: Green ;
+$green_dark: LightSeaGreen ;
+$green_darker: DarkGreen ;
+
+$blue_lighter: LightSkyBlue;
+$blue_light: DeepSkyBlue;
+$blue: Blue;
+$blue_dark: MediumBlue;
+$blue_darker: DarkBlue ;
+
+$white_lighter: Azure;
+$white_light: AliceBlue;
+$white: White;
+
+$gray_lighter: LightGray;
+$gray_light: Silver;
+$gray: Gray;
+$gray_dark: DarkGray;
+$gray_darker: DimGray;
+
+$body_light: White;
+$title_dark: black;
+$text_dark: black;
+$body_dark: black;
+$title_light: white;
+$text_light: white;

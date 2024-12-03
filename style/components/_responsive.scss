@@ -1,0 +1,37 @@
+/*---==========Responsive============---*/
+
+@media screen and (max-width:1365px){
+   img{
+       width: 400px;
+   }
+}
+@media screen and (max-width:991px){
+    .home-section{
+        .home-title{
+            font-size: 2rem;
+        }
+    }
+    .title{
+        font-size: 1.5rem !important;
+    }
+}
+@media screen and (max-width:767px){
+
+}
+@media screen and (max-width:560px){
+    .box-container{
+        display: block !important;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .services-section{
+        .outer-box{
+            display: block !important;
+            z-index: 1000;
+            overflow: hidden;
+        }
+    }
+}
+
+
